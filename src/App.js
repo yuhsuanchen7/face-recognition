@@ -1,15 +1,22 @@
 import React from "react";
-import Navigation from "./components/Navigation/Navigation";
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from "./components/Navigation/Navigation";
+import Rank from "./components/Rank/Rank";
+import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
+import './App.css';
 
 function App() {
+
+  function ButtonDetect(urlInput) {
+    console.log(urlInput);   
+  }
+
   return (
     <div className="App">
       <Navigation />
-      {/* <Logo />
-      <ImageLinkForm />
-      <FaceRecognition /> */}
+      <Rank />
+      <ImageLinkForm onSubmit={ButtonDetect} />
+      {/* <FaceRecognition /> */}
     </div>
   );
 }

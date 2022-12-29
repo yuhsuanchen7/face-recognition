@@ -1,17 +1,19 @@
 import React from "react";
-import './Navigation.css';
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import ImageSearchIcon from '@mui/icons-material/ImageSearch';
+import './Navigation.css';
 
 function Navigation() {
     return (
-        <Nav class="navbar navbar-expand-sm fixed-top navbar-light" style={{padding: "20px 0 20px 0"}}>
-        <Container>
+        <Nav className="navbar navbar-expand-sm ">
+          <Container>
+            <ImageSearchIcon style={{fontSize: "xx-large", margin: "0 5px 0 5px"}} />
             <a className="navbar-brand" href="/">Face Recognition Challenge</a>
             <Nav className="ms-auto justify-content-end">
-              <a class="nav-link" href="">Sign Out</a>
+              <a className="nav-link" href="">Sign Out</a>
             </Nav>
-        </Container>
+          </Container>
       </Nav>
     )
 }

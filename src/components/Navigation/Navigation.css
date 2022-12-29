@@ -3,14 +3,19 @@
     font-weight: 500;
     padding: 16px 32px;
     background-color: white;
-    opacity: 0.5
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
+
 }
 
 .navbar-brand {
     font-size: xx-large !important;
-    color: #4d5d53;
+    font-weight: 500;
+}
+
+.nav {
+    padding: 20px 0 20px 0;
 }
 
 .nav a {
-    color: #4d5d53 !important;
+    color: #3e4a42 !important;
 }
