@@ -6,7 +6,7 @@ import "./ImageLinkForm.css";
 
 function ImageLinkForm(props) {
 
-    const [urlInput, setUrlInput] = useState();
+    const [urlInput, setUrlInput] = useState("");
 
     function handleChange(event) {
         const newValue = event.target.value;
@@ -22,6 +22,7 @@ function ImageLinkForm(props) {
                         onChange={handleChange}
                         placeholder="Your picture url"
                         aria-describedby="basic-addon2"
+                        value={urlInput}
                     />
                     <Button 
                         variant="dark" 

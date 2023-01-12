@@ -1,0 +1,24 @@
+.faceSection {
+    position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imageSection {
+    position: relative;
+    display: inline-block;
+}
+
+.imageSection img {
+    border-radius: 8px;
+    width: 500px;
+}
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}

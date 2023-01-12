@@ -4,7 +4,7 @@
     padding: 16px 32px;
     background-color: white;
     background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
-
+    position: sticky;
 }
 
 .navbar-brand {
@@ -16,6 +16,8 @@
     padding: 20px 0 20px 0;
 }
 
-.nav a {
+.nav Button {
+    font-family: 'Montserrat', sans-serif !important;
     color: #3e4a42 !important;
+    font-size: medium;
 }
